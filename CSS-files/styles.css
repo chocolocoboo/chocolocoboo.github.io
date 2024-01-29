@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../Resources/BiggieCheese.jpg);
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-image: url(../Resources/Dream.gif);
+    margin: 0px;
+    height: 100px;
+}
+
+h2{
+  text-align: justify;
+  margin: 10px;
+}
+
+p{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    
+}
+
+.textBox{
+  background-color: rgb(255, 252, 233);
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.text{
+  margin: 10px;
+}
+
+.firstPageText{
+    text-align: center;
+    margin: auto;
+
+    color: orangered;
+    height: 700px;
+}
+
+.topnav {   
+    overflow: hidden;
+    background-image: url(../Resources/red-brick-wall.jpg);
+    display: flex;
+    flex: 1;
+    margin: 0px;
+  }
+
+  .topnav a {
+  float: center;
+  display: block;
+  color: #000000;
+  padding: 20px;
+  text-decoration: none;  
+}
+
+.topnav a:hover {
+  background-color: #05004f;
+  color: rgb(255, 255, 255);
+}
+
+
+  @media (max-width: 600px) {
+    .topnav {
+      flex-direction: column;
+    }
+  }
+
+  ul{
+    list-style-type: none;
+    padding:20px;
+    position: fixed;
+  }
+
+  .number5{
+    width: 10%;
+  }
+
+  .num5pic{
+    width: 10%;
+  }
