@@ -31,10 +31,14 @@ p{
   background-color: rgb(255, 252, 233);
   margin: 30px;
   border-radius: 15px;
+  display: flex;
+  height: 350px;
 }
 
 .text{
   margin: 10px;
+  font-size: xx-large;
+  text-align: left;
 }
 
 .firstPageText{
@@ -79,10 +83,29 @@ p{
     position: fixed;
   }
 
-  .number5{
-    width: 10%;
+  .numpic{
+    width: 100%
   }
 
-  .num5pic{
-    width: 10%;
+  .num3pic{
+    width: 50%;
+    padding-left: 30%;
   }
+
+  .number{
+    width: 30%;
+  }
+
+  .famousPics{
+    width: 10%;
+    padding: 1%;
+  }
+
+  .FamousHeader{
+    background-color: rgb(255, 252, 233);
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
