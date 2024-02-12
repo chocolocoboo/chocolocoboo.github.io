@@ -76,6 +76,33 @@ p{
       flex-direction: column;
     }
   }
+  .topnav2 {   
+    overflow: hidden;
+    background-color: #348d2b;
+    display: flex;
+    flex: 1;
+    margin: 0px;
+  }
+
+  .topnav2 a {
+  float: center;
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;  
+}
+
+.topnav2 a:hover {
+  background-color: #d7ffd3;
+  color: #ca3e55;
+}
+
+
+  @media (max-width: 600px) {
+    .topnav2 {
+      flex-direction: column;
+    }
+  }
 
   ul{
     list-style-type: none;
