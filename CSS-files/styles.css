@@ -7,12 +7,21 @@ body{
     background-size: 100%;
 }
 
-h1{
-    text-align: center;
-    color: white;
-    background-image: url(../Resources/Dream.gif);
-    margin: 0px;
-    height: 100px;
+.SiteHeader{
+  text-align: center;
+  color: white;
+  background-image: url(../Resources/Dream.gif);
+  margin: 0px;
+  height: 100px;
+}
+
+.ratfacts{
+  text-align: center;
+  color: white;
+  background-color:  #4bca3e ;
+  margin: 0px;
+  height: 100px;
+  
 }
 
 h2{
