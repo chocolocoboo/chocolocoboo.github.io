@@ -1,10 +1,19 @@
-body{
+.restbody{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 0px;
     margin: 0px;
     background-image: url(../Resources/BiggieCheese.jpg);
     background-size: 100%;
+}
+
+.factsBody{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 0px;
+  margin: 0px;
+  background-color: #8d2b3c ;
+  background-size: 100%;
 }
 
 .SiteHeader{
@@ -17,7 +26,7 @@ body{
 
 .ratfacts{
   text-align: center;
-  color: white;
+  color: #d7ffd3;
   background-color:  #4bca3e ;
   margin: 0px;
   height: 100px;
@@ -43,6 +52,17 @@ p{
   display: flex;
   height: 350px;
 }
+
+.textBox2{
+  background-color: #ca3e55;
+  margin: 30px;
+  border-radius: 15px;
+  display: flex;
+  height: 350px;
+  color: #d7ffd3;
+
+}
+
 
 .text{
   margin: 10px;
