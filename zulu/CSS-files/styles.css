@@ -35,13 +35,14 @@ Body {
 
 
 .logo{
-  display: flex;
-  margin-bottom: 0%;
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .Zululogo{
-  
+  display: block;
   margin: auto;
 }
 
