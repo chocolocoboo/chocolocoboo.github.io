@@ -1,0 +1,127 @@
+Body {
+  background-size: 100%;
+  margin: 0px;
+}
+
+#IndexBody {
+  background-image: url(../Resources/jdilla-working.jpg);
+}
+
+#DownloadBody{
+  background-image: url(../Resources/PeteRock2.webp);
+}
+
+#SupportBody{
+  background-image: url(../Resources/GangStarr.webp);
+}
+
+#InfoBody{
+  background-image: url(../Resources/q-tip.jpg);
+  
+}
+
+.downloadButton{
+  padding-left: 35%;
+  padding-top: 15%;
+  width:30%;
+}
+
+.patreonButton{
+  padding-left: 35%;
+  padding-top: 15%;
+  width:15%;
+  
+}
+
+
+.logo{
+  display: flex;
+  margin-bottom: 0%;
+  
+}
+
+.Zululogo{
+  
+  margin: auto;
+}
+
+.textBox{
+  color: #FFAB00;
+  text-align: center;
+  font-weight: bold;
+  font-size:xx-large;
+  padding: 7%;
+  padding-top: 0%;
+  text-shadow: -1px 1px 0 #000, 
+  1px 1px 0 #000, 
+ 1px -1px 0 #000, 
+-1px -1px 0 #000; ;;
+}
+
+.textBox1{
+  color: #FFAB00;
+  text-align: center;
+  font-weight: bold;
+  font-size:x-large;
+  padding: 7%;
+  padding-top: 0%;
+  text-shadow: -1px 1px 0 #000, 
+  1px 1px 0 #000, 
+ 1px -1px 0 #000, 
+-1px -1px 0 #000; ;;
+}
+
+.topnav {   
+    overflow: hidden;
+    background-image: url(../Resources/red-brick-wall.jpg);
+    display: flex;
+    flex: 1;
+    margin: 0px;
+    height: 100px;
+    position: relative;
+  }
+
+
+
+  .topnav a {
+  float: center;
+  display: block;
+  color: #000000;
+  padding: 20px;
+  text-decoration: none;  
+}
+
+.topnav a:hover {
+  background-color: #FFAB00;
+  color: rgb(0, 0, 0);
+}
+
+
+  @media (max-width: 600px) {
+ 
+    .topnav #myLinks {
+      display: none;
+    }    
+  }
+
+  ul{
+    list-style-type: none;
+    padding:20px;
+    position: fixed;
+  }
+
+  .download{
+    height: 100%;
+  }
+
+  .info{
+    height: 100%;
+  }
+
+  .support-us{
+    height: 100%;
+  }
+
+  .Menu{
+    height: 100%;
+  }
