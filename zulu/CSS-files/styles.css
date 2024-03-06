@@ -1,5 +1,6 @@
 Body {
   background-size: 100%;
+  height: 120%;
   margin: 0px;
 }
 
@@ -20,8 +21,11 @@ Body {
   
 }
 
-#vinyl-div{
+.vinyl_pic{
   
+  width: 13%;
+  display: flex;
+  float: right;
 }
 
 #test{
@@ -136,3 +140,5 @@ Body {
   .Menu{
     height: 100%;
   }
+
+
