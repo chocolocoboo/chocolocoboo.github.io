@@ -1,6 +1,6 @@
 Body {
   background-size: 100%;
-  height: 120%;
+  height: 220%;
   margin: 0px;
 }
 
@@ -26,6 +26,7 @@ Body {
   width: 13%;
   display: flex;
   float: right;
+  opacity: 0;
 }
 
 #test{

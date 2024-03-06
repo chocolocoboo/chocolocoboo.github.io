@@ -40,8 +40,7 @@ function FixedVinyl(){
 }
 }
 
-const element = document.querySelector("div#libbsticka");
-const output = document.querySelector("p#output");
+
 
 /*element.onscroll=(event)=> {
   vinylOpacity();
