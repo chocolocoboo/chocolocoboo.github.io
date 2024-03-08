@@ -1,7 +1,7 @@
 Body {
   background-size: 100%;
-  height: 220%;
   margin: 0px;
+  height: 3000px;
 }
 
 #IndexBody {
@@ -21,13 +21,20 @@ Body {
   
 }
 
+
 .vinyl_pic{
   
   width: 13%;
   display: flex;
   float: right;
   opacity: 0;
+  position: fixed;
+  left:  87%;
+  top: 2%;
+
 }
+
+
 
 #test{
   background-color: transparent;

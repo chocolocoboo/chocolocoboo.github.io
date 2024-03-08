@@ -31,7 +31,7 @@ function ScrollVinyl()
 
 
 
-
+/*
 function FixedVinyl(){
   if(window.scrollY >= sticky) {
     vinyl.classList.add("sticky")
@@ -39,7 +39,7 @@ function FixedVinyl(){
     vinyl.classList.remove("sticky")
 }
 }
-
+*/
 
 
 /*element.onscroll=(event)=> {
