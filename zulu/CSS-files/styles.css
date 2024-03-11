@@ -98,7 +98,7 @@ Body {
     display: flex;
     flex: 1;
     margin: 0px;
-    height: 100px;
+    height: 10vh;
     position: relative;
     justify-content: center;
     
@@ -112,6 +112,7 @@ Body {
   color: #000000;
   padding: 20px;
   text-decoration: none;  
+  
 }
 
 .topnav a:hover {
@@ -119,34 +120,29 @@ Body {
   color: rgb(0, 0, 0);
 }
 
-
-  @media (max-width: 600px) {
- 
-    .topnav #myLinks {
-      display: none;
-    }    
-  }
-
-  ul{
+ul{
     list-style-type: none;
     padding:20px;
     position: fixed;
   }
 
-  .download{
-    height: 100%;
+  .NavBlock{
+    height: 6vw;
+    display: flex;
   }
 
-  .info{
-    height: 100%;
+@media (max-width: 600px) {
+  .topnav {
+    flex-direction: row;
   }
+  .NavBlock {
+    height : 5vw;
+    display: flex;
+  }
+}
 
-  .support-us{
-    height: 100%;
-  }
+  
 
-  .Menu{
-    height: 100%;
-  }
+ 
 
 

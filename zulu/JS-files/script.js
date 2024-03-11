@@ -25,21 +25,21 @@ function ScrollVinyl()
   vinylOpacity();
   setTimeout(()=> {
     fadeOut();
-  }, 700)
+  }, 1000)
 }
 
 
 
 
-/*
+
 function FixedVinyl(){
   if(window.scrollY >= sticky) {
     vinyl.classList.add("sticky")
   } else {
-    vinyl.classList.remove("sticky")
+    
 }
 }
-*/
+
 
 
 /*element.onscroll=(event)=> {
