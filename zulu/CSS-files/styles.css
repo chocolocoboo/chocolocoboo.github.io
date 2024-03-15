@@ -139,8 +139,19 @@ ul{
     height : 5vw;
     display: flex;
   }
+  
 }
 
+@media (max-height: 500px) {
+  .topnav {
+    flex-direction: row;
+  }
+  .NavBlock {
+    height : 3vw;
+    display: flex;
+  }
+  
+}
   
 
  
