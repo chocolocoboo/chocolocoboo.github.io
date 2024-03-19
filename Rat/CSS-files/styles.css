@@ -7,23 +7,6 @@ body{
     background-size: 100%;
 }
 
-.Siteheader{
-  text-align: center;
-  color: white;
-  background-image: url(../Resources/Dream.gif);
-  margin: 0px;
-  height: 100px;
-}
-
-.ratfacts{
-  text-align: center;
-  color: white;
-  background-color:  #4bca3e ;
-  margin: 0px;
-  height: 100px;
-  
-}
-
 h1{
     text-align: center;
     color: white;
@@ -45,23 +28,17 @@ p{
 }
 
 .textBox{
-  background-color: rgb(211, 119, 70);
+  background-color: rgb(255, 252, 233);
   margin: 30px;
   border-radius: 15px;
-  color: #000000;
-
+  display: flex;
+  height: 350px;
 }
-
 
 .text{
   margin: 10px;
   font-size: xx-large;
   text-align: left;
-}
-
-.FlexText{
-  display: flex;
-  margin: 3%;
 }
 
 .firstPageText{
