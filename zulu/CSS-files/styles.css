@@ -98,7 +98,7 @@ Body {
     display: flex;
     flex: 1;
     margin: 0px;
-    height: 10vh;
+    height: 12vh;
     position: relative;
     flex-direction: row;
   }
@@ -152,6 +152,7 @@ ul{
 @media (max-width: 600px) {
   .topnav {
     flex-direction: row;
+    height: 8vh;
   }
   .NavBlock {
     height : 5vw;
@@ -163,12 +164,20 @@ ul{
 @media (max-height: 500px) {
   .topnav {
     flex-direction: row;
+    
   }
   .NavBlock {
     height : 3vw;
     display: flex;
   }
   
+}
+
+@media (min-width: 1350px) {
+.NavBlock {
+  height: 5.5vw;
+}
+
 }
 
 @media (max-width: 480px) {
