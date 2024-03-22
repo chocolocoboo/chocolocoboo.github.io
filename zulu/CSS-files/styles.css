@@ -151,6 +151,7 @@ ul{
   .NavBlock {
     height : 3vw;
     display: flex;
+    a
   }
   
 }
