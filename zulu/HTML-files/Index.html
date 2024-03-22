@@ -13,11 +13,16 @@
 
 
 <body id="IndexBody" onscroll="ScrollVinyl()">
-    <div class="topnav">           
-        <a href="../HTML-files/Index.html"> <img src="../Resources/zulu-zampler.png" alt="logo" class="NavBlock"></a>
-        <a href="../HTML-files/Download.html"><img src="../Resources/Download.png" alt="download" class="NavBlock"></a>
-        <a href="../HTML-files/Info.html"><img src="../Resources/Info.png" alt="info" class="NavBlock"></a>
-        <a href="../HTML-files/Support-us.html"><img src="../Resources/Support-Us-2024-01-17.png" alt="support-us" class="NavBlock"></a>
+    <div class="topnav">         
+            <a href="../HTML-files/Index.html"> <img src="../Resources/zulu-zampler.png" alt="logo" class="active"></a>        
+        <div id="myLinks">
+            <a href="../HTML-files/Download.html"><img src="../Resources/Download.png" alt="download" class="NavBlock"></a>
+            <a href="../HTML-files/Info.html"><img src="../Resources/Info.png" alt="info" class="NavBlock"></a>
+            <a href="../HTML-files/Support-us.html"><img src="../Resources/Support-Us-2024-01-17.png" alt="support-us" class="NavBlock"></a>         
+        </div>  
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
     </div>
     
     <div id="libbsticka">
@@ -27,3 +32,4 @@
     <div class="textBox">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis mauris quis viverra laoreet. Nam augue ex, rhoncus vel volutpat at, rutrum vitae turpis. Vestibulum vitae arcu ligula. Duis eleifend odio posuere neque sodales elementum. Sed luctus ante porta justo blandit, vel porttitor lorem vehicula. Nulla at dui orci. Curabitur malesuada vehicula lobortis.</div>
     <script src="../JS-files/script.js"></script>   
 </body>
+
