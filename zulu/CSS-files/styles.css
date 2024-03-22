@@ -103,13 +103,6 @@ Body {
     flex-direction: row;
   }
 
-
-  .topnav #myLinks{
-    display: none;
-    flex-direction: row;
-    
-  }
-
   .topnav a {
 
   display: block;
@@ -119,21 +112,10 @@ Body {
   
 }
 
-.topnav a.icon{
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
 .topnav a:hover {
   background-color: #FFAB00;
   color: rgb(0, 0, 0);
-}
-
-.active{
-  height: 6vw;
-  display: flex;  
 }
 
 ul{
@@ -148,7 +130,7 @@ ul{
     display: flex;
   }
 
-/*
+
 @media (max-width: 600px) {
   .topnav {
     flex-direction: row;
@@ -179,20 +161,3 @@ ul{
 }
 
 }
-
-@media (max-width: 480px) {
-  .topnav {
-    flex-direction: column;
-  }
-  .NavBlock {
-    height : 10vw;
-    display: flex;
-  }
-  
-}
-*/
-  
-
- 
-
-
