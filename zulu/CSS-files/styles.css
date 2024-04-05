@@ -35,7 +35,6 @@ Body {
 }
 
 
-
 #test{
   background-color: transparent;
 }
@@ -98,9 +97,13 @@ Body {
     display: flex;
     flex: 1;
     margin: 0px;
-    height: 12vh;
+    height: 10vh;
     position: relative;
     flex-direction: row;
+  }
+
+  .info{
+    height: 10vh;
   }
 
   .topnav a {
@@ -133,14 +136,24 @@ ul{
 
 @media (max-width: 600px) {
   .topnav {
-    flex-direction: row;
-    height: 8vh;
+    flex-direction: column;
+    height: 225px;
   }
-  .NavBlock {
-    height : 5vw;
+
+  
+  .NavBlock{
+    width: 45%;
+    height: 100%;
     display: flex;
   }
-  
+
+  .topnav a{
+    padding: 0%;
+  }
+
+  .info{
+    height: 10vh;
+  }
 }
 
 @media (max-height: 500px) {
@@ -149,7 +162,7 @@ ul{
     
   }
   .NavBlock {
-    height : 3vw;
+    height : 2vw;
     display: flex;
   }
   
