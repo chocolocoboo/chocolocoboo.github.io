@@ -97,13 +97,14 @@ Body {
     display: flex;
     flex: 1;
     margin: 0px;
-    height: 10vh;
+    height: 12vh;
     position: relative;
     flex-direction: row;
   }
 
-  .info{
-    height: 10vh;
+  .Info{
+    height: 6vw;
+    display: flex;
   }
 
   .topnav a {
@@ -151,8 +152,8 @@ ul{
     padding: 0%;
   }
 
-  .info{
-    height: 10vh;
+  .Info{
+    height: 7vh;
   }
 }
 
