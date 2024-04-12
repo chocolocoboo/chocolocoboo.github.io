@@ -21,6 +21,15 @@ Body {
   
 }
 
+#URLinput{
+  height: fit-content;
+  background-color: #FFAB00;
+}
+
+.textInput{
+  display: flex;
+  justify-content: center;
+}
 
 .vinyl_pic{
   
@@ -33,7 +42,6 @@ Body {
   top: 2%;
 
 }
-
 
 
 #test{
@@ -105,6 +113,11 @@ Body {
   }
 
 
+  .Info{
+    height: 6vw;
+    display: flex;
+  }
+
 
   .topnav a {
   float: center;
@@ -114,6 +127,7 @@ Body {
   text-decoration: none;  
   
 }
+
 
 .topnav a:hover {
   background-color: #FFAB00;
@@ -131,16 +145,27 @@ ul{
     display: flex;
   }
 
+
 @media (max-width: 600px) {
   .topnav {
-    flex-direction: row;
-    height: 8vh;
+    flex-direction: column;
+    height: 225px;
   }
-  .NavBlock {
-    height : 5vw;
+
+  
+  .NavBlock{
+    width: 45%;
+    height: 100%;
     display: flex;
   }
-  
+
+  .topnav a{
+    padding: 0%;
+  }
+
+  .Info{
+    height: 7vh;
+  }
 }
 
 @media (max-height: 500px) {
@@ -149,7 +174,7 @@ ul{
     
   }
   .NavBlock {
-    height : 3vw;
+    height : 2vw;
     display: flex;
   }
   
@@ -159,10 +184,5 @@ ul{
 .NavBlock {
   height: 5.5vw;
 }
-
-}
-  
-
- 
 
 
