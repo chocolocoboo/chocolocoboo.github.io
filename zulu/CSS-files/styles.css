@@ -108,19 +108,16 @@ Body {
     margin: 0px;
     height: 12vh;
     position: relative;
-    justify-content: center;
-    
+    flex-direction: row;
   }
-
 
   .Info{
     height: 6vw;
     display: flex;
   }
 
-
   .topnav a {
-  float: center;
+
   display: block;
   color: #000000;
   padding: 20px;
@@ -138,6 +135,7 @@ ul{
     list-style-type: none;
     padding:20px;
     position: fixed;
+    
   }
 
   .NavBlock{
@@ -185,4 +183,4 @@ ul{
   height: 5.5vw;
 }
 
-
+}
