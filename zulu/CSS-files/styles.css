@@ -21,6 +21,15 @@ Body {
   
 }
 
+#URLinput{
+  height: fit-content;
+  background-color: #FFAB00;
+}
+
+.textInput{
+  display: flex;
+  justify-content: center;
+}
 
 .vinyl_pic{
   
