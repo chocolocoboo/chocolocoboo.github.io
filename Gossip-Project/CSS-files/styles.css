@@ -1,0 +1,44 @@
+.body{
+    font-weight: bold;
+    color: #B23388;
+}
+
+.kiss-logo {
+    width: 15%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #D188B9;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: #B23388;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #D188B9;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #F6E6F1;
+    color: #B23388;
+  }
+  
+  .active {
+    background-color: #F6E6F1;
+    color: #B23388;
+  }
