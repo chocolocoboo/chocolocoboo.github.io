@@ -6,7 +6,7 @@ body {
 }
 
 .kiss-logo {
-    height: 10%;
+    height: 7%;
     width: 10%;
 }
 
@@ -37,8 +37,13 @@ body {
   }
   
   .topnav a.active {
-    background-color: #F6E6F1;
+    background-color: #D188B9;
     color: #B23388;
+  }
+
+  .topnav a.active:hover {
+    background-color: #B23388;
+    color: #F6E6F1;
   }
   
   .topnav .icon {
