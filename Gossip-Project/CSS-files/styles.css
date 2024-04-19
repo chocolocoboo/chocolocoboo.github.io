@@ -1,44 +1,69 @@
-.body{
+body {
     font-weight: bold;
     color: #B23388;
+    background-color: #F6E6F1;
+    margin:0%;
 }
 
 .kiss-logo {
-    width: 15%;
+    height: 10%;
+    width: 10%;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #D188B9;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    color: #B23388;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    background: #D188B9;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .topnav a:hover {
-    background-color: #F6E6F1;
-    color: #B23388;
-  }
-  
+    
   .active {
     background-color: #F6E6F1;
     color: #B23388;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #D188B9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #B23388;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #B23388;
+    color: #F6E6F1;
+  }
+  
+  .topnav a.active {
+    background-color: #F6E6F1;
+    color: #B23388;
+  }
+  
+  .topnav .icon {
+    display: none;
+    background: #D188B9;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
   }
