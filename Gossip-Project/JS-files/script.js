@@ -6,3 +6,43 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+addEventListener("load", (event) => {});
+
+onload = async (event) =>
+{
+	//var name = document.getElementById("nameTextField");
+};
+
+const calculateBtn = document.getElementById("Calculate");
+calculateBtn.addEventListener("click", calculateFunction);
+
+
+async function calculateFunction()
+{
+	var name = document.getElementById("name");
+	var name2 = document.getElementById("name2");
+	const url = 'https://love-calculator.p.rapidapi.com/getPercentage?sname=' + name + '&fname=' + name2;
+	const options = {
+		method: 'GET',
+		headers: {
+			'X-RapidAPI-Key': '906ad0658cmsh9388e110cacb6cfp1903e5jsn187798779828',
+			'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com'
+		}
+	};
+		try {
+			const response = await fetch(url, options);
+			const data = await response.json();
+			console.log(data);
+
+
+			document.getElementById("result").innerHTML = " Percentage: " + data.percentage + "%" + " " + data.result;
+		} catch (error) {
+			console.error(error);
+		}
+		
+}
+
+
+
+

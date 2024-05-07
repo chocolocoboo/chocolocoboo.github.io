@@ -5,6 +5,22 @@ body {
     margin:0%;
 }
 
+footer {
+  background-color: #D188B9;
+  color: #B23388;
+  display: block;
+  padding: 4px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+h1 {
+  padding: 16px;
+}
 .kiss-logo {
     height: 7%;
     width: 10%;
@@ -71,4 +87,99 @@ body {
       display: block;
       text-align: left;
     }
+  }
+
+  .flex-container {
+    text-align: center;
+  }
+
+  .img {
+    max-width: 100%;
+    padding-left: 10px;
+    margin: 10px;
+    float: right;
+  }
+
+  @media screen and (max-width:600px) {
+    .img{
+      
+      max-width: 50%;
+    }
+  }
+
+  .flex-container p{
+    text-align: justify;
+  }
+
+  .button {
+    border: none;
+    font-weight: bold;
+    background-color: #D188B9;
+    color: #B23388;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #B23388;
+    color: #F6E6F1;
+  }
+
+  .love-calculator-field {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 425px;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .grid-container > div {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: ridge;
+    border-color: #D188B9;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .item2 {
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .item3 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  p {
+    padding: 16px;
+  }
+
+  .kiss-img {
+    height: 80%;
+    width: 100%;
   }
