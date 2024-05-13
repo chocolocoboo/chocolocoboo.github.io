@@ -21,8 +21,10 @@ calculateBtn.addEventListener("click", calculateFunction);
 async function calculateFunction()
 {
 	var name = document.getElementById("name");
+	console.log(name.value);
 	var name2 = document.getElementById("name2");
-	const url = 'https://love-calculator.p.rapidapi.com/getPercentage?sname=' + name + '&fname=' + name2;
+	console.log(name2.value);
+	const url = 'https://love-calculator.p.rapidapi.com/getPercentage?sname=' + name.value + '&fname=' + name2.value;
 	const options = {
 		method: 'GET',
 		headers: {

@@ -15,7 +15,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  height: 50px;
+  height: 80px;
 }
 
 h1 {
@@ -133,10 +133,14 @@ h1 {
 
   .love-calculator-field {
     margin: 0;
+    padding: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: ridge;
+    border-radius: 8px;
+    border-color:#D188B9;
   }
 
   .grid-container {
@@ -180,6 +184,5 @@ h1 {
   }
 
   .kiss-img {
-    height: 80%;
     width: 100%;
   }
