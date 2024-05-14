@@ -9,11 +9,6 @@ function myFunction() {
 
 addEventListener("load", (event) => {});
 
-onload = async (event) =>
-{
-	//var name = document.getElementById("nameTextField");
-};
-
 const calculateBtn = document.getElementById("Calculate");
 calculateBtn.addEventListener("click", calculateFunction);
 

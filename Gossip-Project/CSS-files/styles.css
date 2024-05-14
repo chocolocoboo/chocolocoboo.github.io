@@ -89,7 +89,7 @@ h1 {
     }
   }
 
-  .flex-container {
+  .text-container {
     text-align: center;
   }
 
@@ -107,7 +107,7 @@ h1 {
     }
   }
 
-  .flex-container p{
+  .text-container p{
     text-align: justify;
   }
 
@@ -132,6 +132,8 @@ h1 {
   }
 
   .love-calculator-field {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 30px;
     position: absolute;
@@ -141,6 +143,7 @@ h1 {
     border: ridge;
     border-radius: 8px;
     border-color:#D188B9;
+    width:70%;
   }
 
   .grid-container {
@@ -186,3 +189,83 @@ h1 {
   .kiss-img {
     width: 100%;
   }
+
+  .flex-container{
+    display: flex;
+    height: 500px;
+  }
+
+  
+.flex-container > div {
+  background-color: #D188B9;
+  color: white;
+  width: 90%;
+  height: 350px;
+  margin: 16px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+} 
+
+
+@media screen and (max-width:600px) {
+  .flex-container{
+    flex-direction: column;
+    align-items: center;
+    height: 690px;
+    width: 100%;
+  }
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #F6E6F1;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #B23388;
+  color: #F6E6F1;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #D188B9;
+  color: #F6E6F1;
+}
+
+.form-container {
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
